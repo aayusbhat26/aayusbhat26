@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Aayush Kumar Bhat, Backend and Data Engineer">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#3A3D36"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="300" fill="#121412"/>
+  <rect width="8" height="300" fill="#E0705C"/>
+
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" letter-spacing="2.4" fill="#938C79">
+    <text x="64" y="58">SYSTEM PROFILE</text>
+    <text x="1216" y="58" text-anchor="end">NEW DELHI, IN</text>
+  </g>
+
+  <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="64" y="158" font-size="64" font-weight="700" letter-spacing="-1.4" fill="#F1EEE5">Aayush Kumar Bhat</text>
+    <text x="66" y="200" font-size="23" fill="#B9B2A1">Backend &amp; data engineer</text>
+  </g>
+
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace">
+    <text x="760" y="96" font-size="12" letter-spacing="2" fill="#938C79">DATA PATH</text>
+    <g stroke="#3A3D36" fill="none">
+      <rect x="760" y="112" width="120" height="46" rx="2"/>
+      <rect x="928" y="112" width="120" height="46" rx="2"/>
+      <rect x="1096" y="112" width="120" height="46" rx="2"/>
+      <path d="M888 135 H920" marker-end="url(#arrow)"/>
+      <path d="M1056 135 H1088" marker-end="url(#arrow)"/>
+    </g>
+    <g font-size="13" letter-spacing="1.2" fill="#F1EEE5" text-anchor="middle">
+      <text x="820" y="140">INGEST</text>
+      <text x="988" y="140">TRANSFORM</text>
+      <text x="1156" y="140">SERVE</text>
+    </g>
+    <g font-size="11.5" fill="#938C79" text-anchor="middle">
+      <text x="820" y="184">PYTHON · ADF</text>
+      <text x="988" y="184">PYSPARK · DELTA</text>
+      <text x="1156" y="184">FASTAPI · SQL</text>
+    </g>
+  </g>
+
+  <line x1="64" y1="232" x2="1216" y2="232" stroke="#2C2E29"/>
+
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#938C79">
+    <text x="64" y="262">github.com/aayusbhat26</text>
+    <text x="1216" y="262" text-anchor="end">PYTHON · PYSPARK · DELTA LAKE · FASTAPI</text>
+  </g>
+</svg>
