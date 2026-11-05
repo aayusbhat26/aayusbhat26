@@ -29,14 +29,14 @@ Chat-native work OS spanning 62 Prisma models, with Socket.IO presence, threads,
 
 ### 03 / How I build
 
-```mermaid
-flowchart LR
-    A[Sources] -->|Python · ADF| B[Ingest]
-    B -->|Parquet| C[Storage]
-    C -->|PySpark · DuckDB| D[Transform]
-    D -->|tests · quarantine| E[Quality]
-    E -->|FastAPI · Power BI| F[Serve]
-```
+| # | Stage | Tooling |
+|---|-------|---------|
+| 01 | Sources | APIs · feeds · telemetry |
+| 02 | Ingest | Python · Azure Data Factory |
+| 03 | Storage | Parquet · Delta Lake |
+| 04 | Transform | PySpark · DuckDB · SQL |
+| 05 | Quality | tests · quarantine · watermarks |
+| 06 | Serve | FastAPI · Power BI |
 
 Correctness before dashboards: I write the data-quality checks before the reporting layer.
 
