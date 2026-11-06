@@ -8,7 +8,7 @@
 Backend and data engineer. I build services and pipelines that stay correct when data is late, duplicated, or malformed — Python/FastAPI on the serving side, PySpark and Delta Lake on the processing side.
 
 **Now** — Associate Software Engineer at Nagarro, Gurugram  
-**Focus** — streaming correctness, medallion pipelines, query performance  
+**Focus** — Full stack Devlopment and Data Engineering 
 **Open to** — remote backend and data engineering roles
 
 ---
