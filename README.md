@@ -5,15 +5,19 @@
   </picture>
 </p>
 
-Backend and data engineer. I build services and pipelines that stay correct when data is late, duplicated, or malformed — Python/FastAPI on the serving side, PySpark and Delta Lake on the processing side.
+Backend and data engineer. I build services and pipelines that stay correct when data is late, duplicated, or malformed: Python and FastAPI on the serving side, PySpark and Delta Lake on the processing side, Kafka in between.
 
 **Now** — Associate Software Engineer at Nagarro, Gurugram  
-**Focus** — Full stack Devlopment and Data Engineering 
+**Focus** — Full stack development and data engineering  
 **Open to** — remote backend and data engineering roles
 
 ---
 
 ### 01 / Selected systems
+
+**HVAC Telemetry Lakehouse**  
+Aiven Kafka over TLS → Delta Lake medallion pipeline in PySpark → gold layer served by FastAPI on DuckDB, with Z-Ordering on the tables the API filters.  
+[Code](https://github.com/aayusbhat26/poc_latency_test)
 
 **Globe News Atlas**  
 Ten public sources → bronze/silver/gold Parquet lake on Hugging Face → FastAPI → React/Three.js globe.  
@@ -32,7 +36,7 @@ Chat-native work OS spanning 62 Prisma models, with Socket.IO presence, threads,
 | # | Stage | Tooling |
 |---|-------|---------|
 | 01 | Sources | APIs · feeds · telemetry |
-| 02 | Ingest | Python · Azure Data Factory |
+| 02 | Ingest | Python · Kafka · Azure Data Factory |
 | 03 | Storage | Parquet · Delta Lake |
 | 04 | Transform | PySpark · DuckDB · SQL |
 | 05 | Quality | tests · quarantine · watermarks |
@@ -42,12 +46,13 @@ Correctness before dashboards: I write the data-quality checks before the report
 
 ### 04 / Writing
 
+- [Watermarks are a contract: validating 150+ PySpark streams](https://dev.to/aayusbhat26/watermarks-are-a-contract-validating-150-pyspark-streams-5dj5)
 - [How to integrate Clerk in a Next.js application](https://dev.to/aayusbhat26/how-to-integrate-clerk-in-next-js-application--4hba)
 - [dev.to/aayusbhat26](https://dev.to/aayusbhat26)
 
 ### 05 / Stack
 
-`Python` `SQL` `PySpark` `Delta Lake` `DuckDB` `Azure Data Factory` `Databricks` `AWS` `FastAPI` `PostgreSQL` `Prisma` `TypeScript` `React` `Docker` `GitHub Actions`
+`Python` `SQL` `PySpark` `Delta Lake` `Kafka` `DuckDB` `Azure Data Factory` `Databricks` `AWS` `FastAPI` `PostgreSQL` `Prisma` `TypeScript` `React` `Docker` `GitHub Actions`
 
 ### 06 / Contact
 
