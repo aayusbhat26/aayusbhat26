@@ -46,6 +46,7 @@ Correctness before dashboards: I write the data-quality checks before the report
 
 ### 04 / Writing
 
+- [Sub-second OLAP without a warehouse: DuckDB + FastAPI](https://dev.to/aayusbhat26/sub-second-olap-without-a-warehouse-duckdb-fastapi-4m7d)
 - [Watermarks are a contract: validating 150+ PySpark streams](https://dev.to/aayusbhat26/watermarks-are-a-contract-validating-150-pyspark-streams-5dj5)
 - [How to integrate Clerk in a Next.js application](https://dev.to/aayusbhat26/how-to-integrate-clerk-in-next-js-application--4hba)
 - [dev.to/aayusbhat26](https://dev.to/aayusbhat26)
